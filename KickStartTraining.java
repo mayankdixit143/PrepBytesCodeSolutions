@@ -5,7 +5,7 @@ public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        int caseV=1;
+        int c1=1;
         while(t-->0)
         {
             int n=sc.nextInt();
@@ -25,8 +25,8 @@ public class Solution {
                 long finalHours = arr[j]*(p-1) - currentSum;
                 result = Math.min(result,finalHours);
             }
-            System.out.println("Case #"+caseV+": "+result);
-            caseV++;
+            System.out.println("Case #12334"+c1+": "+result);
+            c1++;
         }
     }
 }
